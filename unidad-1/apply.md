@@ -29,16 +29,16 @@ Esta aplicación web está creada con **p5.js** y se conecta a un **micro:bit** 
 
 ### Intercambio de datos
 
-- Cuando el micro:bit envía datos por serial, el programa lee esos datos byte a byte (`port.read(1)`).
+- Cuando el micro:bit envía datos por serial, el programa lee esos datos byte a byte (**port.read(1)**).
 - Dependiendo del dato recibido:
-  - Si recibe `'A'`, el círculo cambia a **rojo**.
-  - Si recibe `'B'`, cambia a **amarillo**.
+  - Si recibe **A**, el círculo cambia a **rojo**.
+  - Si recibe **B**, cambia a **amarillo**.
   - Si recibe cualquier otro carácter, cambia a **verde**.
 - En el centro del círculo se muestra el carácter recibido en texto negro.
 
 ### Envío de datos al micro:bit
 
-- Al presionar el botón **Enviar "Love"**, el programa envía un carácter `'h'` al micro:bit.
+- Al presionar el botón **Enviar "Love"**, el programa envía un carácter **h** al micro:bit.
 
 ## Funcionamiento general
 
