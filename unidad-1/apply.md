@@ -2,7 +2,7 @@
 
 ## 🛠 Fase: Apply  
 
-#Actividad 05  
+# Actividad 05  
 
 # Sistema Interactivo Web con micro:bit
 
