@@ -4,9 +4,9 @@
 
 # Actividad 05  
 
-# Sistema Interactivo Web con micro:bit
+## Sistema Interactivo Web con micro:bit
 
-# Contexto general
+## Contexto general
 
 Esta aplicación web está creada con **p5.js** y se conecta a un **micro:bit** via comunicacion serial para intercambiar datos. La interfaz es sencilla e incluye dos botones: uno para conectar o desconectar el micro:bit y otro para enviar un mensaje al micro:bit.
 
