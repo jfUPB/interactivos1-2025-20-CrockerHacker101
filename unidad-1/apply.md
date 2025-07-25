@@ -50,10 +50,13 @@ Esta aplicación web está creada con **p5.js** y se conecta a un **micro:bit** 
 
 # Actividad 06  
 
-## enlace del trabajo ##    
-https://editor.p5js.org/CrockerHacker101/sketches/3Lf_WWBIH  
+**Enlace del trabajo**    
 
-## Codigo p5.js ##  
+[Mi código](https://editor.p5js.org/CrockerHacker101/sketches/3Lf_WWBIH)
+
+## Codigo p5.js ## 
+
+
 let xPos;  
 let targetX;  
 let port;  
