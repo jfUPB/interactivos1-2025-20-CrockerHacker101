@@ -30,13 +30,13 @@ Las acciones que realiza cada objeto `Pixel` están definidas dentro del método
   Se guarda el tiempo actual utilizando `utime.ticks_ms()` cuando el estado es `"Init"`.
 
 - **Encender o apagar el píxel:**  
-  Se utiliza `display.set_pixel(x, y, valor)` para mostrar el estado del píxel en la matriz LED. El valor cambia entre `0` (apagado) y `9` (encendido).
+  Se utiliza `display.set_pixel(x, y, valor)` para mostrar el estado del pixel en la matriz LED. El valor cambia entre `0` (apagado) y `9` (encendido).
 
 - **Alternar el estado del brillo:**  
-  Cuando ha pasado el intervalo de tiempo definido, el valor del píxel se alterna de 0 a 9 o de 9 a 0.
+  Cuando ha pasado el intervalo de tiempo definido, el valor del pixel se alterna de 0 a 9.
 
 - **Actualizar el tiempo de referencia nuevamente:**  
-  Cada vez que se cambia el estado del píxel, se actualiza `startTime` para medir el siguiente intervalo correctamente.
+  Cada vez que se cambia el estado del pixel, se actualiza `startTime` para medir el siguiente intervalo correctamente.
 
 - **Mantenerse en el estado `"WaitTimeout"`:**  
-  Una vez inicializado, el objeto permanece en este estado ejecutando las acciones anteriores en cada ciclo de actualización.
+  Una vez inicializado, el objeto permanece en este estado ejecutando las acciones anteriores en cada ciclo de actualizacion.
