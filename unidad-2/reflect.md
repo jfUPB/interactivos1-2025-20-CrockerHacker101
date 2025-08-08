@@ -31,7 +31,27 @@ Por que es util crusial para verificar una maquina de estados? :
 
 ## Parte 2:  reflexión sobre tu proceso (Metacognición)  
 
-¿Qué parte del diseño de la bomba temporizada te resultó más desafiante: crear el diagrama de estados (Actividad 04) o traducir ese diagrama a código MicroPython (Actividad 05)? ¿Por qué?  
-mi parte que mas dificil fue y la que mas me gusto fue la parte del codigo, por que, al inicio empeze a crear el codigo por mi cuenta, sin hacer el diagrama primero
+### **1** ¿Qué parte del diseño de la bomba temporizada te resultó más desafiante: crear el diagrama de estados (Actividad 04) o traducir ese diagrama a código MicroPython (Actividad 05)? ¿Por qué?  
+mi parte que mas dificil fue y la que mas me gusto fue la parte del codigo, por que, al inicio empeze a crear el codigo por mi cuenta, sin hacer el diagrama primero, entonces me tire de una vez al codigo, lo que proboco que me enredara un poco, pero ya en la casa hice el diagrama y me fue un poco mejor en el codigo.  
+
+### **2** Describe un error o “bug” que encontraste al implementar tu programa. ¿Cómo te ayudó pensar en términos de estados, eventos y transiciones a identificar y solucionar el problema?  
+el " BUG " que encontre fue el de poner los LEDs por que tenia muchos errores a la hora de prender, pero despues logre solucionarlo y lo puse bien.  
+
+### **3** El problema de la bomba era complejo. ¿Qué estrategia usaste para abordarlo? ¿Comenzaste con una versión simple y añadiste funcionalidades poco a poco?  
+si, un poco pero se pudo lograr, primero intente hacerlo por mi cuenta, pero me resulto mas dificil, entonces me puse a hacer el diagrama y ya pude avanzar, y si, primero hice el codigo de forma muy simple y le fui poniendo mas cositas.  
+
+### **4** Ahora que entiendes el patrón de máquina de estados, ¿En qué otro tipo de proyecto o sistema de entretenimiento digital crees que podrías aplicarlo?  
+yo digo que reloj, que cambie de estado cada que pase 60 min se marque una hora.
+
+# Actividad 7  
+https://github.com/jfUPB/interactivos1-2025-20-natalieruizperez/blob/unidad2/apply/unidad-2/apply.md
+
+### Analisis 
+La verdad no hay nada para criticar, el trabajo esta muy bien hecho y esta usando la tecnica usada por el profe.
+
+
+
+
+
 
 
