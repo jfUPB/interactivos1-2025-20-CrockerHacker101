@@ -52,3 +52,7 @@ while True:
     semaforo2.update()
     semaforo3.update()
 ```
+
+# Activida 02  
+
+### Bomba 2.0 :O  
