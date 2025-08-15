@@ -53,7 +53,28 @@ while True:
     semaforo3.update()
 ```
 
-# Activida 02: Bomba 2.0 :O  
+# Activida 05:  
+
+Construye el modelo de la bomba 3.0. Como ya tienes el código puedes tener un modelo muy preciso.  
+
+### Modelo de la Máquina de Estados – Bomba 3.0  
+
+**Estados principales**  
+- **CONFIG** = Configuración del temporizador.  
+- **ARMED** = Cuenta regresiva y posibilidad de desactivación con clave.  
+- **EXPLODED** = Bomba explotada, requiere reinicio.  
+
+**Eventos que disparan cambios**  
+- **A** = Botón A (o por serial)  
+- **B** = Botón B  
+- **S** = Shake  
+- **T** = Touch logo  
+- **Timer** = Un segundo transcurrido  
+- **Clave completa** = Secuencia `A-B-A` ingresada correctamente o incorrecta
+
+### Tabla de Valores:
+  
+<img width="754" height="639" alt="Captura de pantalla 2025-08-14 214455" src="https://github.com/user-attachments/assets/79e9adfe-e792-4268-b7a8-84b8a5612889" />
 
 
 
