@@ -197,7 +197,7 @@ function keyPressed() {
 
 ```
 
-[[Enlace a la aplicación modificada](https://editor.p5js.org/CrockerHacker101/sketches/2PiwbafWt)] (Micro:bit)
+[Enlace a la aplicación modificada](https://editor.p5js.org/CrockerHacker101/sketches/2PiwbafWt)
 
 Código modificado:
 
@@ -332,6 +332,7 @@ function generatePalette(index) {
 ## Video
 
 [Video demostratativo](URL)
+
 
 
 
