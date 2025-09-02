@@ -2,7 +2,7 @@
 
 ## Código
 
-[[Enlace a la aplicación a modificar](https://editor.p5js.org/CrockerHacker101/sketches/2PiwbafWt)](URL)
+[(https://editor.p5js.org/CrockerHacker101/sketches/2PiwbafWt)](URL)
 
 Código a modificar:
 
@@ -144,6 +144,7 @@ Código modificado:
 ## Video
 
 [Video demostratativo](URL)
+
 
 
 
