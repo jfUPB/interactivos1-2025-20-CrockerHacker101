@@ -2,7 +2,7 @@
 
 ## Código
 
-[[Enlace a la aplicación modificada](https://editor.p5js.org/generative-design/sketches/SyEx9qqp1V)](Original)
+[Enlace a la aplicación a modificar](https://editor.p5js.org/generative-design/sketches/SyEx9qqp1V)
 
 Código a modificar:
 
@@ -332,6 +332,7 @@ function generatePalette(index) {
 ## Video
 
 [Video demostratativo](URL)
+
 
 
 
