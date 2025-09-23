@@ -40,5 +40,6 @@ Este protocolo convierte una transmisión caótica en un sistema organizado y ro
 
 NOTA 4.0
 
+total: 3.7
 
 
