@@ -109,6 +109,10 @@ Este modelo también puede observarse en situaciones cotidianas fuera del entorn
 - **Lo que se pide:** Un traslado a un destino.
 - **Lo que se entrega:** El servicio de transporte.
 
+## URL  
+
+### URL usada: https://www.youtube.com/watch?v=dvgZkm1xWPE&list=RDEMuf6htoZivPnz-ZIwGU0dDA&index=10
+
 
 # Actividad 5  
 "Caca" – Brainstorming Colaborativo en Tiempo Real
@@ -138,5 +142,6 @@ Tecnología utilizada:
 - Canvas API o SVG para la representación visual de ideas conectadas.  
 
 <img width="469" height="280" alt="image" src="https://github.com/user-attachments/assets/a2f231a3-e356-49fb-abef-73b5adc5c339" />
+
 
 
