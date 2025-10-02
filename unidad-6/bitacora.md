@@ -111,7 +111,80 @@ Este modelo también puede observarse en situaciones cotidianas fuera del entorn
 
 ## URL  
 
-### URL usada: https://www.youtube.com/watch?v=dvgZkm1xWPE&list=RDEMuf6htoZivPnz-ZIwGU0dDA&index=10
+### URL usada: https://www.youtube.com/watch?v=dvgZkm1xWPE&list=RDEMuf6htoZivPnz-ZIwGU0dDA&index=10  
+
+- El protoco es el "https://", como tiene una "S" quiere decir que es segura.  
+- El nombre del dominio es "www.youtube.com"    
+- La ruta es "/watch"  
+
+Si en el navegador pongo solo el "www.youtube.com" este automáticamente se cambiara por "https://www.youtube.com", en ese caso el servidor YouTube decide que página “por defecto” mostrar bajo ese dominio raíz.
+en este caso es la home page.
+
+## HTTP  
+### Comparación entre HTTP y protocolos seriales
+
+HTTP y los protocolos seriales como los que se usan con el **micro:bit** tienen algunas similitudes, ya que ambos transmiten datos en forma de bytes y requieren un emisor y un receptor que estén de acuerdo en ciertas reglas básicas para que el mensaje sea entendido. En ambos casos existe un protocolo: en serial se define la **velocidad en baudios** y los **bits de datos**, mientras que en HTTP se define la estructura del mensaje con **métodos**, **cabeceras** y **cuerpo**.  
+
+Sin embargo, hay diferencias clave:  
+- El **protocolo serial** es de **bajo nivel** y se limita a enviar bytes en orden, sin un formato fijo; es una comunicación directa *1 a 1* entre dispositivos.  
+- **HTTP** es un protocolo de **alto nivel** que se construye encima de TCP/IP y organiza la información en mensajes estructurados, diseñados para transferir recursos en la web (páginas, imágenes, videos) con **metadatos**, **autorización**, **idiomas** y muchas otras funciones.  
+- Mientras que el serial solo conecta dos dispositivos, HTTP está pensado para **escalar a millones de clientes y miles de servidores** en todo el mundo.  
+
+HTTP necesita ser más complejo que un simple envío de bytes porque en Internet no basta con transmitir datos crudos: hay que especificar qué recurso se solicita, en qué formato, si se permite almacenar en caché, si el usuario está autenticado, entre otros detalles. Esto hace que cliente y servidor puedan comunicarse de manera confiable y universal en un entorno muy variado, a diferencia del entorno controlado y directo que se tiene con una conexión serial en un micro:bit.  
+
+## JAVA, HTML, CSS  
+***HTML: es la estructura, lo que realmente existe en la página.***  
+
+- Los campos de texto para “usuario” y “contraseña”.  
+- El botón para “Iniciar sesión”.  
+- Las etiquetas <form>, <input>, <button>.  
+- En resumen: lo que define qué elementos hay en la página.  
+
+***CSS: es la apariencia, cómo se ven esos elementos.***
+
+- El color del botón (azul, verde, rojo…).  
+- El tipo de letra y el tamaño del texto.  
+- Los márgenes, bordes redondeados, sombras, fondo de la página.  
+- En resumen: lo que da estilo y presentación al HTML.  
+
+***JavaScript: es la interactividad, lo que ocurre cuando haces acciones.***
+
+- Revisar que no envíes el formulario vacío.  
+- Mostrar un mensaje de “contraseña incorrecta” sin recargar toda la página.  
+- Hacer que el botón se bloquee después de varios intentos fallidos.  
+
+## Comparación:  
+
+El bucle draw() de p5.js funciona repitiéndose unas 60 veces por segundo, ejecutando código incluso cuando nada cambia. Esto es ideal en animaciones o juegos, donde la pantalla se actualiza constantemente. En cambio, el modelo basado en eventos de JavaScript en la web solo ejecuta funciones cuando ocurre algo (como un clic o una respuesta del servidor). Esto lo hace mucho más eficiente para interfaces de usuario, porque no desperdicia recursos redibujando la página innecesariamente, ahorrando CPU y batería.
+
+## Usar Java  
+
+### Ventajas de usar JavaScript en cliente y servidor
+
+Con **Node.js** es posible usar JavaScript tanto en el navegador (cliente) como en el servidor.  
+Antes se usaba JavaScript solo en el cliente y otro lenguaje distinto en el backend (como PHP, Java o Python).  
+Unificar el lenguaje trae varias ventajas:
+
+Principales ventajas
+- **Unificación del lenguaje**: todo el proyecto se desarrolla en JavaScript, reduciendo la complejidad.  
+- **Reutilización de código**: funciones como validaciones o utilidades pueden compartirse entre cliente y servidor.  
+- **Mayor productividad**: no hace falta aprender varios lenguajes, lo que acelera el desarrollo.  
+- **Trabajo en equipo más flexible**: los desarrolladores pueden moverse entre frontend y backend (rol *fullstack*).  
+- **Mantenimiento más sencillo**: un solo lenguaje hace que el código sea más consistente y fácil de actualizar.  
+
+## Resume con tus propias palabras  
+
+La principal diferencia es que el "http" tradicional funciona tipo petición/respuesta el cliente siempre tiene que pedir algo y el servidor responde, algo como enviar un correo cada vez que necesitas información.
+Con WebSockets/Socket.IO hay una conexión hay una conección permanentemente abierta, osea, que se pueden enviar mensajes en cualquier momento sin necesidad de repetir peticiones.  
+
+Este tipo de comunicación se usa en:   
+- Chats y mensajería en línea.  
+- Juegos multijugador en tiempo real.  
+- Aplicaciones colaborativas como Google Docs o pizarras compartidas.    
+- Notificaciones instantáneas de aplicaciones web o móviles.  
+
+# Actividad 3  
+
 
 
 # Actividad 5  
@@ -142,6 +215,7 @@ Tecnología utilizada:
 - Canvas API o SVG para la representación visual de ideas conectadas.  
 
 <img width="469" height="280" alt="image" src="https://github.com/user-attachments/assets/a2f231a3-e356-49fb-abef-73b5adc5c339" />
+
 
 
 
