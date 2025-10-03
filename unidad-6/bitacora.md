@@ -185,7 +185,67 @@ Este tipo de comunicación se usa en:
 
 # Actividad 3  
 
+### Punto 1:  
 
+al entrar a page1 me sale los siguiente:
+
+<img width="1489" height="949" alt="image" src="https://github.com/user-attachments/assets/e27dd5d1-6138-43a8-800c-359fb5d8759c" />
+
+no funciona :C  
+
+pero al entrar a "pagina:_uno" me sale esto:  
+
+<img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/7491c811-8408-4605-8219-30a27c29d314" />
+
+si que funciona :D   
+
+### Punto 2:  
+
+Al entrar en las paginas se crean unos IDs, diferentes por paginas:
+
+<img width="457" height="151" alt="image" src="https://github.com/user-attachments/assets/0ed232c5-6711-44c6-bd19-e54076b006ab" />
+
+y al salir de las paginas el server lo reconoce como una desconexión de este asi que usa el mismo id para indicar que se cerro/desconecto la pagina:
+
+<img width="402" height="94" alt="image" src="https://github.com/user-attachments/assets/4f0769fb-2c53-47a3-95fe-b6c9ad4958df" />
+
+### Punto 3  
+
+<img width="590" height="452" alt="image" src="https://github.com/user-attachments/assets/410463c8-7a31-44d8-9194-b0cdf340d663" />
+
+Qué pasa:  
+- socket.emit envía el mensaje solo al mismo socket que lo emitió.  
+- Entonces, si mueves page1, solo page1 recibe los datos.
+- page2 no se actualiza, porque socket.emit no envía a los demás clientes.
+
+Por qué no se actualiza en page2:  
+- broadcast.emit envía a todos los demás clientes conectados, excepto al que emitió el mensaje.  
+- socket.emit envía únicamente al cliente actual (el que movió la ventana).  
+
+¿Qué te dice esto sobre cómo el servidor asocia URLs con respuestas? Restaura el código.  
+- El servidor solo responde a las URLs que tú defines en app.get(). Si pones /page1, funciona solo con /page1.  
+- Si lo cambias a /pagina_uno, funciona solo con /pagina_uno.  
+- El servidor no “adivina” ni busca archivos, solo hace lo que le dices en el código.  
+
+### Punto 4
+Al cambiar el puerto del server, sale lo siguiente al iniciar el este mismo:
+
+<img width="490" height="120" alt="image" src="https://github.com/user-attachments/assets/bbb730f5-a065-457f-8b75-8cd8784e7341" />
+
+Al abrir http://localhost:3000/page1 sale esto:  
+
+<img width="1852" height="993" alt="image" src="https://github.com/user-attachments/assets/78da8833-82e3-4309-bfef-fed9936718e7" />
+
+
+y al abrir  http://localhost:3001/page1 sale esto:
+
+<img width="1873" height="117" alt="image" src="https://github.com/user-attachments/assets/5bf5eaa4-d343-476d-88d4-c690a4a866a7" />
+
+¿Qué aprendiste sobre la variable port y la función listen? Restaura el puerto a 3000.  
+
+Aprendí que La variable port define el número de puerto en el que el servidor escucha conexiones y fa función server.listen(port) arranca el servidor en ese puerto específico al cambiar el puerto cambia la URL que los clientes deben usar para conectarse.  
+
+Si intento conectarme a un puerto donde no hay servidor escuchando, no funciona.  
 
 # Actividad 5  
 "Caca" – Brainstorming Colaborativo en Tiempo Real
@@ -215,6 +275,7 @@ Tecnología utilizada:
 - Canvas API o SVG para la representación visual de ideas conectadas.  
 
 <img width="469" height="280" alt="image" src="https://github.com/user-attachments/assets/a2f231a3-e356-49fb-abef-73b5adc5c339" />
+
 
 
 
