@@ -248,7 +248,7 @@ Aprendí que La variable port define el número de puerto en el que el servidor 
 Si intento conectarme a un puerto donde no hay servidor escuchando, no funciona.  
 
 # Actividad 5  
-"Caca" – Brainstorming Colaborativo en Tiempo Real
+"Braineted" – Brainstorming Colaborativo en Tiempo Real
 
 Objetivo:
 
@@ -275,6 +275,7 @@ Tecnología utilizada:
 - Canvas API o SVG para la representación visual de ideas conectadas.  
 
 <img width="469" height="280" alt="image" src="https://github.com/user-attachments/assets/a2f231a3-e356-49fb-abef-73b5adc5c339" />
+
 
 
 
