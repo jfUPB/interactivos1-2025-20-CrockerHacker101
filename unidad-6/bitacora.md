@@ -277,6 +277,11 @@ Tecnología utilizada:
 <img width="469" height="280" alt="image" src="https://github.com/user-attachments/assets/a2f231a3-e356-49fb-abef-73b5adc5c339" />
 
 
+# Autoevaluación  
+
+al cumplir perfectamente con 4 de las 5 actividades, yo merezco un 4, ya que, todas las actividades estan bien explicadas, bien resueltas y justificadas con capturas de pantalla que las respaldan, por lo tanto mi nota es 4
+
+TOTAL: 4.0
 
 
 
