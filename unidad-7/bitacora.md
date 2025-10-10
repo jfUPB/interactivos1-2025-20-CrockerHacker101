@@ -23,6 +23,23 @@ npm start es pa prender el server, y que funcione y cree la URL, tambien se pued
 
 si que funcionó, salio una bolita en el pcerdo, y en mi cell salio "touch to move" o algo asi y al tocar por ese recuadro podia mover la bolita de la pantalla del pc, aun que habia un poco de delay no era molesto.  
 
+# Actividad 2  
+
+### ¿Por qué es necesario Dev Tunnels y cómo funciona?
+
+Dev Tunnels es necesario porque localhost solo es accesible desde tu propio computador, no desde otro dispositivo como un celular. Dev Tunnels crea un enlace público seguro que conecta una URL accesible en Internet directamente con tu servidor local en el puerto 3000, permitiendo que cualquier dispositivo acceda a tu app aunque no esté en la misma red.
+
+### ¿Qué hace touchMoved() y para qué sirve el threshold?
+
+touchMoved() detecta cuando el usuario mueve el dedo sobre la pantalla y obtiene las coordenadas del toque en tiempo real. El threshold evita enviar datos por cada pequeño movimiento, solo manda información si el dedo se mueve lo suficiente, para no saturar la red y mejorar el rendimiento.
+
+### Comparación: Dev Tunnels vs IP local
+
+- Dev Tunnels: Permite acceso desde cualquier red, es seguro y funciona con una URL pública, pero depende de un servicio externo.  
+- IP local: Solo funciona en la misma red Wi-Fi, es más simple pero no accesible desde fuera y menos seguro.  
+
+### Capturas 
+
 # Actividad 3  
 
 ### ¿Cuál es la función principal de express.static(‘public’) en este servidor? ¿Cómo se compara con el uso de app.get(‘/ruta’, …) del servidor de la Unidad 6?  
@@ -70,4 +87,5 @@ Lo cual envía el mensaje a todos los clientes conectados excepto al móvil que 
 - Ver que el servidor está recibiendo eventos.  
 - Depurar errores.  
 - Asegurar que todo está funcionando como esperas.  
+
 
