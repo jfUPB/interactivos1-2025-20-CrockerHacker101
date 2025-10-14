@@ -39,6 +39,11 @@ touchMoved() detecta cuando el usuario mueve el dedo sobre la pantalla y obtiene
 - IP local: Solo funciona en la misma red Wi-Fi, es más simple pero no accesible desde fuera y menos seguro.  
 
 ### Capturas 
+<img width="739" height="1258" alt="499416538-62e977a0-10f7-4721-a4a3-354ad0965224" src="https://github.com/user-attachments/assets/9e917d77-a8ed-4303-897e-fcba3fa18286" />
+
+
+<img width="1920" height="1080" alt="499416301-162a6b93-bd68-4b2a-b6ee-710602e1c01d" src="https://github.com/user-attachments/assets/ece663c7-31f2-403c-84c9-de99d368410b" />
+
 
 # Actividad 3  
 
@@ -87,5 +92,27 @@ Lo cual envía el mensaje a todos los clientes conectados excepto al móvil que 
 - Ver que el servidor está recibiendo eventos.  
 - Depurar errores.  
 - Asegurar que todo está funcionando como esperas.  
+
+# Actividad 4  
+Flujo de datos entre Móvil, Servidor y Escritorio (Socket.IO)  
+
+Este diagrama muestra cómo el toque en el cliente móvil viaja a través del servidor hasta el cliente de escritorio, usando Socket.IO. Se ejemplifica con coordenadas táctiles (x, y).  
+
+1.1. Cliente móvil (mobile/sketch.js): El usuario toca la pantalla. Se capturan las coordenadas x=120, y=250 y se envían al servidor con socket.emit('touch', {x:120, y:250}).  
+2.2. Servidor (server.js): Escucha el evento 'touch' y reenvía los datos a todos los clientes con io.emit('draw', data).  
+3.3. Cliente de escritorio (desktop/sketch.js): Escucha el evento 'draw' y dibuja un punto o figura en las coordenadas recibidas.  
+resumen de eventos Socket.IO  
+
+Etapa	Actor	Acción	Evento Socket.IO  
+1.	Cliente móvil	Captura toque y envía coordenadas	socket.emit('touch', {x, y})  
+2.	Servidor	Recibe datos y los reenvía	socket.on('touch') → io.emit('draw')  
+3.	Cliente escritorio	Recibe coordenadas y dibuja	socket.on('draw', data)  
+
+diagrama:  
+
+<img width="917" height="333" alt="image" src="https://github.com/user-attachments/assets/9fa63a39-e9c1-4619-ac38-2668779ab55b" />
+
+# Actividad 5
+
 
 
