@@ -114,5 +114,7 @@ diagrama:
 
 # Actividad 5
 
+el servidor con sus codigos estan en la carpeta afuerita
+
 
 
