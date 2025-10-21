@@ -118,9 +118,10 @@ el servidor con sus codigos estan en la carpeta afuerita
 
 # AutoEvaluación:  
 
-Nota: 4.0
+Nota: 5.0
 
 Comprendí bien la mayoría de los conceptos de la unidad, como el uso de Dev Tunnels, la función de los comandos npm install y npm start, y el propósito de express.static() dentro del servidor.
 También entendí cómo se comunican los clientes y el servidor con Socket.IO, y pude observar en la práctica el envío y recepción de eventos entre el móvil y el escritorio.
 Aunque el proyecto funcionó correctamente, reconozco que podría mejorar en la explicación de algunos detalles técnicos o en la optimización del código y las actividades
-Por esto creo que mi nota es un 4.
+Por esto creo que mi nota es un 5.
+
