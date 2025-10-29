@@ -3,6 +3,28 @@
 
 
 # Actividad 1  
+### 1: Visuales inspiradoras:  
+https://www.youtube.com/watch?v=GygTYH63fHs  
+https://co.pinterest.com/pin/3448137209632632  
+https://co.pinterest.com/pin/492018328060525149  
+<img width="3071" height="1727" alt="image" src="https://github.com/user-attachments/assets/9a8b9200-fb18-4d2a-be2f-85abbb63a0f1" />
+
+### 2: Concepto de las visuales creadas:  
+Las visuales que yo cree la verdad son bastante basicas, solo es un fondo azul con puntitos de color amarillo de fondo, como si fueran un cielo estrellado, como la canción "A Sky Full Of Stars" es mi principal inspiración y es un tema bastante claro, fue mas facil encontrar una idea de diseño para este, la verdad mi idea principal era, pues, hacer lo que mostre en el proyecto y ademas, ponerle la letra de canción, y que esta vaya cambiando y siguiendo la voz de chris martin.  
+
+### 3: Cómo el móvil y el micro:bit controlarán las visuales
+
+El móvil funciona como un control remoto que envía la posición del toque y los botones presionados al servidor Node.js, el cual transmite esa información al computador (desktop).
+Así, al mover el dedo en la pantalla o presionar el botón de explosión, la estrella del escritorio se mueve o explota en tiempo real.
+
+El micro:bit, por su parte, puede enviar datos de movimiento o botones al mismo servidor, que también los reenvía al desktop para modificar las visuales (por ejemplo, el color o dirección de las partículas).
+
+### 4: Bocetos del programa  
+
+
+
+### 5: Diagrama feo
+<img width="859" height="1210" alt="image" src="https://github.com/user-attachments/assets/db68dac8-4c30-40c5-aebf-4a6d7d343fbf" />
 
 
 # Actividad 2  
@@ -20,3 +42,4 @@ al ponerle la parte del codigo que deberia iniciar el programa me salio el sigui
 pero solo tuve que poner el siguiente comando y ya quedo solucionado:
 
 <img width="458" height="19" alt="image" src="https://github.com/user-attachments/assets/f693c1d4-2745-4cd6-a66f-9471587b7c2c" />
+
