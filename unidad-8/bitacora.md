@@ -40,4 +40,37 @@ pero solo tuve que poner el siguiente comando y ya quedo solucionado:
 
 <img width="458" height="19" alt="image" src="https://github.com/user-attachments/assets/f693c1d4-2745-4cd6-a66f-9471587b7c2c" />
 
+luego hice el codigo de microbit python
+
+<img width="1198" height="934" alt="image" src="https://github.com/user-attachments/assets/26806af0-2341-488b-8f0f-fd7382fe24c5" />
+
+despues me puse a chambear con la chatgpt y con ayuda de el logre crear los codigos y ponerlos en el proyecto:
+
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/5f0674ae-7d95-4507-a4e6-ada9c58f9d57" />
+
+<img width="1916" height="542" alt="image" src="https://github.com/user-attachments/assets/81af9d81-7694-4afd-a6a2-9b7cba1d647e" />
+
+
+le pase un promt con todos mis codigos y le dije que tenia que hacer.
+
+le pedi el codigo del index.html 
+<img width="1919" height="855" alt="image" src="https://github.com/user-attachments/assets/c73ac9eb-151d-4a48-bf1b-476d7299e4cc" />
+
+tuve muchos errores y al final pude coronar con un pedazo:
+<img width="802" height="687" alt="image" src="https://github.com/user-attachments/assets/134db757-9850-4cad-aced-d9eb0629ae53" />
+
+<img width="852" height="495" alt="image" src="https://github.com/user-attachments/assets/fcaae9fd-e301-4d84-b418-badf0e35bab3" />
+tambien le pedi ayuda para el sketch.js
+<img width="815" height="762" alt="image" src="https://github.com/user-attachments/assets/7a6c48b3-dbaa-4d14-80fa-17af1cd12d0b" />
+<img width="907" height="813" alt="image" src="https://github.com/user-attachments/assets/6c653938-5a4a-4baa-9a92-db5aedfb4d60" />
+
+y porfin lo logre por que soy bien pro
+<img width="1024" height="557" alt="image" src="https://github.com/user-attachments/assets/ba7438ca-d023-4071-af42-053257afda52" />
+
+y ya funciona casi  a la perfeccion solo que parece que se teletransporta pero eso no asara
+
+codigos:
+
+
+
 
