@@ -1,7 +1,6 @@
 
 # Evidencias de la unidad 8
 
-
 # Actividad 1  
 ### 1: Visuales inspiradoras:  
 https://www.youtube.com/watch?v=GygTYH63fHs  
@@ -20,12 +19,10 @@ Así, al mover el dedo en la pantalla o presionar el botón de explosión, la es
 El micro:bit, por su parte, puede enviar datos de movimiento o botones al mismo servidor, que también los reenvía al desktop para modificar las visuales (por ejemplo, el color o dirección de las partículas).
 
 ### 4: Bocetos del programa  
-
-
+<img width="1536" height="1024" alt="09a7be16-80bf-437b-adec-292923add36c" src="https://github.com/user-attachments/assets/8612b0c1-776b-47be-acac-8d5bf941d0a4" />
 
 ### 5: Diagrama feo
 <img width="859" height="1210" alt="image" src="https://github.com/user-attachments/assets/db68dac8-4c30-40c5-aebf-4a6d7d343fbf" />
-
 
 # Actividad 2  
 
@@ -42,4 +39,5 @@ al ponerle la parte del codigo que deberia iniciar el programa me salio el sigui
 pero solo tuve que poner el siguiente comando y ya quedo solucionado:
 
 <img width="458" height="19" alt="image" src="https://github.com/user-attachments/assets/f693c1d4-2745-4cd6-a66f-9471587b7c2c" />
+
 
