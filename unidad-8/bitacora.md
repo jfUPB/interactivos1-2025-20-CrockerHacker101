@@ -69,7 +69,19 @@ y porfin lo logre por que soy bien pro
 
 y ya funciona casi  a la perfeccion solo que parece que se teletransporta pero eso no asara
 
-codigos:
+
+
+
+
+
+codigos: archivo aky.zip
+
+Hola profe aquí esta mi autoevaluacion 
+Yo creo que mi nota es un 5  ya que cumplo con cada uno de los puntos propuestos por la bitácora, como los 5 puntos de la actividad y el correcto funcionamiento del servidor de la actividad 2, se que se pueden pulir mas para que se vea mucho mejor pero por cuestiones de tiempo y falta del microbit en mi choza  no lo pude pulir lo suficiente 
+ 
+Nota final: 5.0 ya que cumplí con todo lo propuesto por la actividad 
+ 
+
 
 
 
